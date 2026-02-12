@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Example 1 (Prime)",
+      "setup": "javac src/CheckPrime.java",
+      "run": "java -cp src CheckPrime",
+      "input": "7",
+      "output": "Prime",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Example 2 (Not Prime)",
+      "setup": "javac src/CheckPrime.java",
+      "run": "java -cp src CheckPrime",
+      "input": "10",
+      "output": "Not Prime",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Edge Case (n=1)",
+      "setup": "javac src/CheckPrime.java",
+      "run": "java -cp src CheckPrime",
+      "input": "1",
+      "output": "Not Prime",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Edge Case (n=2)",
+      "setup": "javac src/CheckPrime.java",
+      "run": "java -cp src CheckPrime",
+      "input": "2",
+      "output": "Prime",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Large Prime (29)",
+      "setup": "javac src/CheckPrime.java",
+      "run": "java -cp src CheckPrime",
+      "input": "29",
+      "output": "Prime",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
